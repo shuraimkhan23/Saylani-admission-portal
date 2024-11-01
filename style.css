@@ -1,0 +1,50 @@
+body{
+    background-color: greenyellow;
+    color: rgb(28, 28, 236);
+    text-align: center;
+    align-content: center;
+}
+.c:hover{
+    color: red;
+}
+span{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span:hover{
+    color: red;
+}
+input{
+    border: 1px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    display: block;
+    width: 100%;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+.btn{
+    transition: all 0.4s;
+}
+.btn{
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.i{
+    font-size: larger;
+    color: blue;
+    align-content: center;
+    font-weight: bold;
+}
+.i:hover{
+    color: red;
+
+}

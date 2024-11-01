@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="a">
+            <img src="https://student.saylaniwelfare.com/assets/logo-OpazD70S.png" alt="image" height="300px" width="500px">
+        </div>
+        <div class="c">
+            <h1>Admission Form</h1>
+        </div>
+        <form action="thanks.html" method="get">
+            <div class="user-details">
+                    <span class="details">Full Name:</span><br>
+                    <br>
+                    <input type="text" placeholder="Your name" required>  
+                </div>
+                <br>
+            <div class="user-details">
+                    <span class="details">Father's Name:</span><br>
+                    <br>
+                    <input type="text" placeholder="Your father name" required>
+                </div>
+                <br>
+            <div class="user-details">
+                    <span class="details">Date Of Birth:</span><br>
+                    <br>
+                    <input type="date" placeholder="Your DOB" required>
+                </div>
+                <br>
+            <div class="user-details">
+                    <span class="details">CNIC:</span><br>
+                    <br>
+                    <input type="number" placeholder="Ex# 1234512345671" required>
+                </div>
+                <br>
+            <div class="user-details">
+                    <span class="details">Email:</span><br>
+                    <br>
+                    <input type="email" placeholder="Ex# abc@gmail.com" required>
+                </div>
+                <br>
+            <div class="user-details">            
+                    <span class="details">Phone Number:</span><br>
+                    <br>
+                    <input type="number" placeholder="Ex# 03XXXXXXXXX" required>  
+                </div>
+                <br>
+            <div class="user-details">
+                <span class="detailes">Highest Qualification:</span><br>
+                <br>
+                <select name="Select Highest Qualification" required>
+                    <option value="">Select Qualification</option>
+                    <option value="Matric">Matric</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Bechlor">Bechlor</option>
+                    <option value="Graduated">Graduated</option>
+                </select>
+            </div>
+            <br>
+            <div class="user-details">
+                <span class="detailes">Address:</span><br>
+                <br>
+                <input type="address" placeholder="Address" required><br>
+                <br>
+                <input type="postal code" placeholder="Ex# 12345" required>
+            </div>
+            <br>
+            <div class="user-details">
+                <span class="Details">Courses:</span><br>
+                <br>
+                    <select name="Select Course" required>
+                     <option value="">Select Course</option>   
+                     <option value="Modern web and app development">Modern Web and App Development</option>
+                     <option value="Web Designing">Web Designing</option>
+                     <option value="Artificial intelligence">Artificial Intelligence</option>
+                    </select>
+                </div>
+                <br>
+            <div class="user-details">           
+                <span class="Details">Gender:</span><br>
+                <br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </div>
+            <br>
+            <div class="user-detailes">
+                <span class="Detailes">Do you have a laptop?</span><br>
+                <br>
+                <input type="radio" name="select">Yes
+                <input type="radio" name="select">No
+            </div>
+            <br>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div><br>
+</body>
+</html>
